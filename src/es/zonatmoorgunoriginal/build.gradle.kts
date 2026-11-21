@@ -12,12 +12,12 @@ keiyoushi {
 
     source {
         lang = "es"
-        baseUrl = "https://zonatmo.org"
+        baseUrl = "https://zonatmo.net"
     }
 
     deeplink {
-        host("zonatmo.org")
-        host("www.zonatmo.org")
+        host("zonatmo.net")
+        host("www.zonatmo.net")
         path("/library/..*")
     }
 }
